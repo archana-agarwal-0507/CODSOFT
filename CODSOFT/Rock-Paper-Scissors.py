@@ -21,7 +21,6 @@ while True:
             print("You lose!")
             computer_score=computer_score+1
     print(f"{name}'s score={user_score} and computer's score={computer_score}")
-
 #Play again- yes or no
     play_again=input("Play again? yes/no? ").lower()
     if play_again=="yes":
