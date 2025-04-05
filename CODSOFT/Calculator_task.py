@@ -5,7 +5,7 @@ num1=float(input("enter first number:"))
 #Taking input of second number
 num2=float(input("enter second number:"))
 #choosing an operation to do 
-operation=input("select your choice of operation. \nAddition\nSubtraction\nMultiplication\nDivision\n").lower()
+operation=input("select your choice of operation. \n-Addition\n-Subtraction\n-Multiplication\n-Division\n").lower()
 match operation:
     case "addition":
         result=num1+num2
